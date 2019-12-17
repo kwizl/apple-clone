@@ -17,9 +17,11 @@ body {
 /* HEADER */
 
 header {
-  height: 55rem;
-  background-color: green;
-  background-image: url('');
+  background-image: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background-size: 1440px 1315px;
+  background-position-y: -48rem;
+  background-repeat: no-repeat;
+  height: 80vh;
 }
 
 /* MAIN */
