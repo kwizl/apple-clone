@@ -27,12 +27,12 @@ header {
 
 nav {
   position: absolute;
-  top: 2rem;
-  width: 66%;
-  height: 3rem;
+  top: 5.7rem;
+  width: 76%;
+  height: 2rem;
   text-align: center;
   border-radius: 5px;
-  margin-left: 15%;
+  margin-left: 12%;
   background: linear-gradient(to bottom, rgb(59, 59, 59), rgb(150, 150, 150) 50%);
 }
 
@@ -44,11 +44,15 @@ nav ul {
 
 .nav-link {
   list-style: none;
-  padding: 0.9rem 1.3rem 0.5rem 1rem;
+  padding: 0.5rem 2rem 0 2rem;
+}
+
+.nav-link:first-child {
+  margin-right: 0.3rem;
 }
 
 .nav-link:last-child {
-  flex-grow: 0.7;
+  padding: 0.2rem 0.2rem 0.2rem 0.2rem !important;
 }
 
 .nav-link:not(:last-child) {
@@ -67,23 +71,44 @@ nav ul {
   font-size: 12px;
 }
 
-#logo {
-  background-image: url('/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg');
+.nav-link > input {
+  margin-left: 0.1rem !important;
+}
+
+.fa-apple {
+  position: absolute;
+  top: 0.2rem;
+  left: 1.5rem;
 }
 
 .search-box {
   padding: 0.25rem;
-  width: 50%;
+  width: 60%;
   border-radius: 10px;
   background: linear-gradient(to bottom, rgb(73, 73, 73), rgb(150, 150, 150) 50%);
   border: 1px solid grey;
-  box-shadow: rgb(155, 155, 155);
+  box-shadow: inset 0 5px rgb(77, 77, 77);
+  flex-grow: 1.5;
+  background-image: url('../img/search-solid.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  background-size: 0.8rem 0.8rem;
+  padding-left: 4px;
+  transition: all 0.4s;
 }
 
 .search-box:focus {
-  transition: all 0.4s;
   width: 70%;
   background: white;
+  border: 1px solid grey;
+  background-image: url('../img/search-solid.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  background-size: 0.8rem 0.8rem;
+  padding-left: 4px;
+  transition: all 0.4s;
 }
 
 .header-section {
@@ -135,7 +160,7 @@ main {
   padding-top: 2px;
 }
 
-.row {
+.column {
   flex-basis: 20%;
 }
 
