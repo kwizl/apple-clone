@@ -1,3 +1,5 @@
 .stickler.yml
 .README.md
 .stylelint.config.js
+.package-lock.json
+**/node_modules
