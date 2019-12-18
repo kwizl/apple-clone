@@ -1,5 +1,5 @@
 # apple-clone
-# Positioning Micorverse Project
+# Linear Gradient Micorverse Project
 
 In this project, we'll be building from scratch a copy of this "[Apple clone](https://web.archive.org/web/20140301004610/http://www.apple.com/)". The main goal of this project is to learn how to use linear gradients.
 
