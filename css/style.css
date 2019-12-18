@@ -47,10 +47,6 @@ nav ul {
   padding: 0.5rem 2rem 0 2rem;
 }
 
-.nav-link:first-child {
-  margin-right: 0.3rem;
-}
-
 .nav-link:last-child {
   padding: 0.2rem 0.2rem 0.2rem 0.2rem !important;
 }
@@ -99,9 +95,8 @@ nav ul {
 }
 
 .search-box:focus {
-  width: 70%;
+  width: 90%;
   background: white;
-  border: 1px solid grey;
   background-image: url('../img/search-solid.svg');
   background-repeat: no-repeat;
   background-position: left;
