@@ -161,9 +161,12 @@ main {
 }
 
 .column {
-  flex-basis: 20%;
+  text-align: center;
 }
 
+.column a > img {
+  width: 99%;
+}
 /* FOOTER */
 
 footer {
