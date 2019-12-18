@@ -9,7 +9,7 @@ In this project, we'll be building from scratch a copy of this "[Apple clone](ht
 - **CSS**
 
 ## Live Demo
-
+https://kwizl.github.io/apple-clone/
 
 ## Authors
 
